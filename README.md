@@ -41,17 +41,16 @@ cd chatwoot-codechat
 </p></p>
 nano .env
 </p>
+
+ ```
 PORT = 1234
-</p>
 CHATWOOT_ACCOUNT_ID = NUMEROCONTACHATWOOT
-</p>
 CHATWOOT_TOKEN = TOKENDOCHATWOOT
-</p>
 CHATWOOT_BASE_URL = URLDOCHATWOOT
-</p>
 CODECHAT_BASE_URL = URLCODECHAT
-</p>
 CODECHAT_API_KEY = TOKENCODECHAT
+ ```
+ 
 </p>
 TOSIGN=true
 </p>
@@ -65,7 +64,6 @@ sudo nano /etc/nginx/sites-available/conector
 </p>
 
 ```
-
 server {
 
   server_name conector.dominio.com.br;
