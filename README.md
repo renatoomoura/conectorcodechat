@@ -35,6 +35,8 @@
 **Instalando Integrador**
 
 </p>
+cd
+</p>
 sudo apt update && apt upgrade -y
 </p>
 git clone https://github.com/w3nder/chatwoot-codechat
