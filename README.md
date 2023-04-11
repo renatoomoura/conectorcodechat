@@ -46,19 +46,20 @@ nano .env
 PORT = 1234
 CHATWOOT_ACCOUNT_ID = NUMEROCONTACHATWOOT
 CHATWOOT_TOKEN = TOKENDOCHATWOOT
-CHATWOOT_BASE_URL = URLDOCHATWOOT
-CODECHAT_BASE_URL = URLCODECHAT
-CODECHAT_API_KEY = TOKENCODECHAT
- ```
- 
-</p>
+CHATWOOT_BASE_URL = https://chatwoot.seusite.com.br
+CODECHAT_BASE_URL = https://codechat.seusite.com.br
+CODECHAT_API_KEY = t8OOEeISKzpmc3jjcMqBWYSaJsafdefer
 TOSIGN=true
+ ```
+
+</p>
+npm install pm2 -g
 </p>
 npm install
 </p>
 npm run build
 </p>
-pm2 start dist/app.js --name NOMEQUEDESEJAR
+pm2 start dist/app.js --name conector
 </p>
 sudo nano /etc/nginx/sites-available/conector
 </p>
