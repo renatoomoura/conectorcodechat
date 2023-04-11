@@ -35,10 +35,12 @@
 **Instalando Integrador**
 
 </p>
+sudo apt update && apt upgrade -y
+</p>
 git clone https://github.com/w3nder/chatwoot-codechat
 </p>
 cd chatwoot-codechat
-</p></p>
+</p>
 nano .env
 </p>
 
