@@ -54,6 +54,7 @@ CHATWOOT_BASE_URL = https://chatwoot.seusite.com.br
 CODECHAT_BASE_URL = https://codechat.seusite.com.br
 CODECHAT_API_KEY = t8OOEeISKzpmc3jjcMqBWYSaJsafdefer
 TOSIGN=true
+IMPORT_MESSAGES_SENT=true
  ```
 
 </p>
